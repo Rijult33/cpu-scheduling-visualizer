@@ -447,7 +447,7 @@ const App = () => {
           >
             RR
           </Button>
-          {selectedOption === 'Option 5' && (
+          {(
             <TextField
               label="Time Quantum"
               placeholder="Enter Time Quantum"
