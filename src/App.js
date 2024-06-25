@@ -447,17 +447,25 @@ const App = () => {
           >
             RR
           </Button>
-          {(
-            <TextField
-              label="Time Quantum"
-              placeholder="Enter Time Quantum"
-              value={option5Input}
-              onChange={handleOption5InputChange}
-              className="quantum-input"
-              style={{ marginLeft: '10px' }}
-            />
-          )}
+          
         </Box>
+       
+        <Box display="flex" justifyContent="center" gap={'10px'}>
+
+          <p> Enter Time Quantum For RR : </p>
+
+        {(
+          <TextField
+            label="Time Quantum"
+            placeholder="Enter Time Quantum"
+            value={option5Input}
+            onChange={handleOption5InputChange}
+            className="quantum-input"
+            style={{ marginBottom: '20px'} }
+          />
+        )}
+      
+      </Box>
         <Box display="flex" justifyContent="center">
           <Button
             variant="contained"
